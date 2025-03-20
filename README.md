@@ -8,5 +8,7 @@ Model Architecture
 Flatten and dense layers for feature extraction
 ReLU activation for non-linearity
 Softmax activation for multi-class classification
+
 Training
+
 The model is trained using the Adam optimizer with categorical cross-entropy loss. Training images are augmented to improve model robustness.
